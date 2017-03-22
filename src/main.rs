@@ -26,7 +26,7 @@ impl fmt::Display for List {
             // For every element except the first, add a comma.
             // Use the ? operator, or try!, to return on errors.
             if count != 0 { write!(f, ", ")?; }
-            write!(f, "{}", v)?;
+            write!(f, "{}:{}", count, v)?;
         }
         write!(f, "]")
     }
