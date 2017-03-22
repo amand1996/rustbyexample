@@ -1,0 +1,6 @@
+[package]
+name = "rustbyexample"
+version = "0.1.0"
+authors = ["Aman Dwivedi <dwivedi.aman96@gmail.com>"]
+
+[dependencies]
